@@ -3,4 +3,5 @@
 # Николай Такеров
 Мои проекты
 
-[Alecto](https://tacker115.github.io/alecto/ "Alecto") - Верстка Landing Page
+[WeFinance](https://tacker115.github.io/wef/ "WeFinance") - Верстка Landing Page #1
+[Alecto](https://tacker115.github.io/alecto/ "Alecto") - Верстка Landing Page #2
