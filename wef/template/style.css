@@ -265,7 +265,7 @@ h1, h2, h3, h4, h5 {
 	display: block;
 	
 	background-color: #fff;
-	top: 0;
+	top: 15px;
 	right: 0;
 	bottom: 0;
 	left: 0;
@@ -301,6 +301,7 @@ h1, h2, h3, h4, h5 {
 .nav-toggle.active .nav-toggle__item{
 	background: none;
 	right: -12px;
+	top: 0;
 }
 
 .nav-toggle.active .nav-toggle__item:before{
