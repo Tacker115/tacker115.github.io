@@ -11,7 +11,6 @@
 
 Мои сертификаты
 
-[1]( https://www.freecodecamp.org/certification/nikolaytacker/responsive-web-design "#1") - Сертификат FCC "Responsive Web Design" 
+[1]( https://www.freecodecamp.org/certification/nikolaytacker/responsive-web-design "#1") - Сертификат FCC "Responsive Web Design" <br>
 [2]( https://www.freecodecamp.org/certification/nikolaytacker/javascript-algorithms-and-data-structures "#2") - Сертификат FCC "JavaScript Algorithms and Data Structures" 
 
-https://www.freecodecamp.org/certification/nikolaytacker/responsive-web-design
