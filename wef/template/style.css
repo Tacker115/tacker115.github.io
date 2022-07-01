@@ -1541,6 +1541,11 @@ h1, h2, h3, h4, h5 {
 		background-color: none;
 	}
 	
+	.nav-toggle {
+    		width: 22px;
+		top: 26px;
+	}
+	
 	.nav__link {
 		display: block;
 		margin: 0;
@@ -1627,11 +1632,6 @@ h1, h2, h3, h4, h5 {
 
 	.header__logo .logo__text {
 		font-size: 14px;
-	}
-	
-	.nav-toggle {
-    	width: 22px;
-		top: 26px;
 	}
 	
 	.nav-toggle__item {
