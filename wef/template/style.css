@@ -1542,8 +1542,8 @@ h1, h2, h3, h4, h5 {
 	}
 	
 	.nav-toggle {
-    		width: 22px;
-		top: 26px;
+    		display: block;
+		top: 30px;
 	}
 	
 	.nav__link {
@@ -1556,10 +1556,6 @@ h1, h2, h3, h4, h5 {
 	
 	.nav__link:after {
 		display: none;
-	}
-	
-	.nav-toggle {
-		display: block;
 	}
 	
 	/* Cards */
@@ -1644,6 +1640,10 @@ h1, h2, h3, h4, h5 {
 	
 	.nav-toggle.active .nav-toggle__item:after {
 		transform: rotate(-45deg) translate3d(0.5px, -0.5px, 0);
+	}
+	
+	.nav-toggle {
+		top: 26px;
 	}
 	
 	.main__block {
