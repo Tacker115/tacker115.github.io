@@ -426,11 +426,11 @@ h1, h2, h3, h4, h5 {
     	height: 81px;
     	font-size: 22px;
 		text-align: center;
-		color: #611f60;
+		color: #52607f;
 	}
 	
 	.nav__link.active {
-		color: #fff;
+		color: #611f60;
 	}
 	
 	.nav-toggle {
