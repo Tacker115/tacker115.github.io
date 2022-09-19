@@ -387,6 +387,9 @@ h1, h2, h3, h4, h5 {
 	.info-area {
 		width: 100%;
 	}
+	.text {
+		min-height: 200px;
+	}
 }
 
 	
@@ -462,7 +465,6 @@ h1, h2, h3, h4, h5 {
 	}
 	.text {
 		font-size: 12px;
-		min-height: 200px;
 	}
 }
 
