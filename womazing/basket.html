@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/script.js"></script>
+    <title>Womazing</title>
+</head>
+<body id="body">
+<header class="header" id="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-10 col-md-3 col-lg-2"><a class="logo-link" href="index.html"><img src="img/logo.svg" alt=""></a></div>
+
+            <div class="order-4 order-md-2 col-md-7 col-lg-6 offset-lg-1 col-xl-5">
+                <nav class="nav" id="nav">
+                    <ul>
+                        <li class="nav--li">
+                            <a class="nav--link" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav--li">
+                            <a class="nav--link" href="shop.html">Магазин</a>
+                        </li>
+                        <li class="nav--li">
+                            <a class="nav--link" href="about.html">О бренде</a>
+                        </li>
+                        <li class="nav--li">
+                            <a class="nav--link" href="contacts.html">Контакты</a>
+                        </li>
+                        <li class="nav--li basket--li">
+                            <a class="basket-link" href="basket.html">
+                                <img src="img/basket.svg" alt="">
+                                <span class="basket-num">0</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="d-none d-md-block order-md-3 col-md-2 col-lg-3 col-xl-3 offset-xl-1 ml-auto">
+                <div class="header-info">
+                    <div class="phone">
+                        <a href="tel:+7(495)8235412">
+                            <button class="callback" type="button">
+                                <img class="callback-icon" src="img/callback.svg" alt="">
+                            </button>
+                        </a>
+                        <a class="number" href="tel:+7(495)8235412"> +7 (495) 823-54-12</a>
+                    </div>
+                    <div class="logo-basket">
+                        <a class="basket-link" href="basket.html">
+                            <img src="img/basket.svg" alt="">
+                            <span class="basket-num">0</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2 d-md-none d-flex justify-content-end">
+                <button class="nav-toggle" id="nav_toggle" type="button">
+                    <span class="nav-toggle__item">Menu</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="hidden">
+
+<!-- Basket -->
+<div class="page">
+    <div class="basket">
+        <div class="page-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="header-title">Корзина</h1>
+                    </div>
+                    <div class="col-12">
+                        <ul class="breadcrumb">
+                            <a href="index.html">Главная</a> Корзина
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="page-inner">
+            <div class="container">
+                <div class="content-basket-inner">
+                    <table class="table-basket">
+                        <thead class="table-basket-thead">
+                            <tr>
+                                <th class="table-title media-table" scope="col">Товар</th>
+                                <th class="table-title" scope="col">Цена</th>
+                                <th class="table-title" scope="col">Количество</th>
+                                <th class="table-title" scope="col">Всего</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="basket-card">
+                                <td class="media-inner">
+                                    <div class="media d-flex align-items-center">
+                                        <a class="remove" aria-label="Удалить эту позицию"><span>x</span></a>
+                                        <div class="media-img">
+                                            <a href="details.html" class="media-link">
+                                                <img src="img/card-img-01.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <a href="details.html" class="media-link">Футболка USA</a>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    $311
+                                </td>
+                                <td class="product-quantity" data-title="Количество">
+                                	<span class="">
+                                		<input type="text" class="input-qty qty-basket" step="1" min="0" max="" value="1" title="Кол-во" size="4" placeholder="" inputmode="numeric">
+			                        </span>
+                                </td>
+                                <td class="product-subtotal" data-title="Подытог">
+                                    $311
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="bottom_button">
+                        <div class="coupon-text">
+                            <input type="text" name="coupon_code" class="form-input-text" id="coupon_code" value="" placeholder="Введите купон">
+                            <button type="submit" class="btn-c btn-trivial" name="apply_coupon" value="Применить купон">Применить купон</button>
+                        </div>
+                        <div class="upd-basket">
+                            <button type="submit" class="btn-c btn-trivial" name="update_cart" value="Обновить корзину" disabled="" aria-disabled="true">Обновить корзину
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="basket-inner">
+                        <div class="basket-inner-total">
+                            Подытог: <span>$311</span>
+                        </div>
+                        <div class="basket-total-btns">
+                            <div class="basket-tot-num">Итого: <span>$311</span></div>
+                            <div class="apply-order">
+                                <a href="order.html" class="btn-c btn-main">Оформить заказ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<footer class="footer" id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="d-none d-md-block col-md-3">
+                <a class="logo-link" href="index.html"><img src="img/logo.svg" alt=""></a>
+                <span class="footer-rulles">© Все права защищены</span>
+                <a class="footer-text" href="">Политика конфиденциальности</a>
+                <a class="footer-text" href="">Публичная оферта</a>
+            </div>
+            <div class="d-none d-md-block col-md-7 col-lg-6">
+                <ul class="foot-ul">
+                    <li class="nav--li">
+                        <a class="nav--link " href="index.html">Главная</a>
+                    </li>
+                    <li class="nav--li">
+                        <a class="nav--link" href="shop.html">Магазин</a>
+                        <ul class="sub-ul">
+                            <li class="sub--li">
+                                <a class="sub--link" href="#">Пальто</a>
+                            </li>
+                            <li class="sub--li">
+                                <a class="sub--link" href="#">Толстовки</a>
+                            </li>
+                            <li class="sub--li">
+                                <a class="sub--link" href="#">Кардиганы</a>
+                            </li>
+                            <li class="sub--li">
+                                <a class="sub--link" href="#">Свитшоты</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav--li">
+                        <a class="nav--link" href="about.html">О бренде</a>
+                    </li>
+                    <li class="nav--li">
+                        <a class="nav--link" href="contacts.html">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 flex-column align-items-center flex-md-row justify-content-between align-items-md-start col-lg-3 flex-lg-column align-items-lg-end shop-info">
+                <a href="tel:+7(495)8235412" class="tel">+7 (495) 823-54-12</a>
+                <a href="mailto:hello@womazing.com" class="email">boorder@yandex.ru</a>
+                <div class="social">
+                    <a class="social-link" href="https://www.instagram.com/" rel="nofollow noopener noreferrer" target="_blank">
+                        <img src="img/instagram.svg" alt="Instagram">
+                    </a>
+                    <a class="social-link" href="https://www.facebook.com" rel="nofollow noopener noreferrer" target="_blank">
+                        <img src="img/facebook.svg" alt="Facebook">
+                    </a>
+                    <a class="social-link" href="https://twitter.com/" rel="nofollow noopener noreferrer" target="_blank">
+                        <img src="img/twitter.svg" alt="Twitter">
+                    </a>
+                </div>
+                <img class="visa-mc" src="img/visa-mastercard.svg" alt="Visa-MasterCard">
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
