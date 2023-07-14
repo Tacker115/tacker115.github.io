@@ -1,6 +1,11 @@
 # Николай Такеров
 
-Мои проекты:
+Разработка интернет-магазина:
+[Ladytown](https://tacker115.github.io/ladytown/ "Ladytown") - Первая версия интернет-магазина женской одежды Ladytown <br>
+[Ladytown2](https://tacker115.github.io/ladytown2/ "Ladytown2") - Версия интернет-магазина женской одежды Ladytown с авторизацией и админ-панелью <br>
+[Ladytown_Bitrix](https://tacker115.github.io/ladytown_bitrix/ "Ladytown_Bitrix") - Версия интернет-магазина женской одежды Ladytown на CMS Bitrix <br>
+
+Мои верстки:
 
 [Сайт-портфолио](https://tacker115.github.io/portfolio/ "Сайт-портфолио") <br>
 [Desp](https://tacker115.github.io/desp/ "Desp") - Верстка Landing Page #1 <br>
