@@ -1,6 +1,6 @@
 # Николай Такеров
 
-Разработка интернет-магазина: <br>
+Разработка интернет-магазина: <br> <br>
 [Ladytown](https://tacker115.github.io/ladytown/ "Ladytown") - Первая версия интернет-магазина женской одежды Ladytown <br>
 [Ladytown2](https://tacker115.github.io/ladytown2/ "Ladytown2") - Версия интернет-магазина женской одежды Ladytown с авторизацией и админ-панелью <br>
 [Ladytown_Bitrix](https://tacker115.github.io/ladytown_bitrix/ "Ladytown_Bitrix") - Версия интернет-магазина женской одежды Ladytown на CMS Bitrix <br>
