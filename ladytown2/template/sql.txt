@@ -1,0 +1,109 @@
+CREATE TABLE users (
+    login	  VARCHAR(30) NOT NULL,
+    password      VARCHAR(30) NOT NULL
+);
+
+CREATE TABLE categories (
+    id_category INT(2) NOT NULL,
+    name        VARCHAR(20) NOT NULL,
+    term	VARCHAR(20) NOT NULL
+);
+
+ALTER TABLE categories ADD CONSTRAINT categories_pk PRIMARY KEY ( id_category );
+
+CREATE TABLE prodt (
+    id_prodt               INT(2) NOT NULL,
+    name                   VARCHAR(30) NOT NULL,
+    price                  INT(5) NOT NULL,
+    image                  VARCHAR(120) NOT NULL,
+    categories_id_category INT(2) NOT NULL
+);
+
+ALTER TABLE prodt ADD CONSTRAINT prodt_pk PRIMARY KEY ( id_prodt );
+
+CREATE TABLE colors (
+    id_color INT(2) NOT NULL,
+    name     VARCHAR(20) NOT NULL,
+    code     VARCHAR(20) NOT NULL,
+    term     VARCHAR(20) NOT NULL
+);
+
+ALTER TABLE colors ADD CONSTRAINT color_pk PRIMARY KEY ( id_color );
+
+CREATE TABLE sizes (
+    id_size INT(1) NOT NULL,
+    name    VARCHAR(5) NOT NULL
+);
+
+ALTER TABLE sizes ADD CONSTRAINT sizes_pk PRIMARY KEY ( id_size );
+
+CREATE TABLE varprodt (
+    id_varprodt          INT(5) NOT NULL,
+    name		 VARCHAR(120) NOT NULL,
+    price		INT(5) NOT NULL,
+    count		INT(5) NOT NULL,
+    image          	 VARCHAR(120) NOT NULL,
+    prodt_id_prodt 	 INT(2) NOT NULL,
+    color_id_color 	INT(2) NOT NULL,
+    size_id_size 	 INT(1) NOT NULL    
+);
+
+ALTER TABLE varprodt ADD CONSTRAINT varprodt_pk PRIMARY KEY ( id_varprodt );
+
+CREATE TABLE baskets (
+    numbasket 		   	   INT(5) NOT NULL,
+    varprodt_name		   VARCHAR(120) NOT NULL,
+    varprodt_price		   INT(5) NOT NULL,
+    varprodt_count		   INT(5) NOT NULL,
+    varprodt_image          	   VARCHAR(120) NOT NULL,
+    varprodt_id_varprodt           INT(5) NOT NULL
+);
+
+CREATE TABLE customers (
+    id_customer INT(5) NOT NULL,
+    name        VARCHAR(20) NOT NULL,
+    email       VARCHAR(50) NOT NULL,
+    adress      VARCHAR(255) NOT NULL
+);
+
+ALTER TABLE customers ADD CONSTRAINT customers_pk PRIMARY KEY ( id_customer );
+
+CREATE TABLE orders (
+    numorder           	  	   INT(5) NOT NULL,
+    varprodt_id_varprodt           INT(5) NOT NULL,
+    varprodt_name		   VARCHAR(120) NOT NULL,
+    varprodt_price		   INT(5) NOT NULL,
+    varprodt_count		   INT(2) NOT NULL,
+    datetime     		   DATETIME NOT NULL,
+    customer_id_customer           INT(5) NOT NULL
+);
+
+ALTER TABLE prodt
+    ADD CONSTRAINT prodt_categories_fk FOREIGN KEY ( categories_id_category )
+        REFERENCES categories ( id_category );
+
+ALTER TABLE varprodt
+    ADD CONSTRAINT varprodt_prodt_fk FOREIGN KEY ( prodt_id_prodt )
+        REFERENCES prodt ( id_prodt );
+
+ALTER TABLE varprodt
+    ADD CONSTRAINT varprodt_color_fk FOREIGN KEY ( color_id_color )
+        REFERENCES colors ( id_color );
+
+ALTER TABLE varprodt
+    ADD CONSTRAINT varprodt_size_fk FOREIGN KEY ( size_id_size )
+        REFERENCES sizes ( id_size );
+
+ALTER TABLE baskets
+    ADD CONSTRAINT basket_varprodt_fk FOREIGN KEY ( varprodt_id_varprodt )
+        REFERENCES varprodt ( id_varprodt );
+
+ALTER TABLE orders
+    ADD CONSTRAINT order_varprodt_fk FOREIGN KEY ( varprodt_id_varprodt )
+        REFERENCES varprodt ( id_varprodt );
+
+ALTER TABLE orders
+    ADD CONSTRAINT order_customer_fk FOREIGN KEY ( customer_id_customer )
+        REFERENCES customers ( id_customer );
+
+

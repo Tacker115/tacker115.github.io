@@ -1,0 +1,141 @@
+-- users
+
+INSERT INTO users VALUES ('admin', '12345');
+
+-- categories 
+
+INSERT INTO categories VALUES (1, 'Купальники', 'swimsuits');
+INSERT INTO categories VALUES (2, 'Свитшоты', 'sweatshirts');
+INSERT INTO categories VALUES (3, 'Толстовки', 'hoodies');
+INSERT INTO categories VALUES (4, 'Футболки', 't-shirts');
+
+-- sizes
+
+INSERT INTO sizes VALUES (1, 'XS');
+INSERT INTO sizes VALUES (2, 'S');
+INSERT INTO sizes VALUES (3, 'M');
+INSERT INTO sizes VALUES (4, 'L');
+INSERT INTO sizes VALUES (5, 'XL');
+
+-- colors
+
+INSERT INTO colors VALUES (10, 'Белый', '#ffffff', 'white');
+INSERT INTO colors VALUES (11, 'Черный', '#000000', 'black');
+INSERT INTO colors VALUES (12, 'Голубой', '#28a6fd', 'azure');
+INSERT INTO colors VALUES (13, 'Светло-зеленый', '#cce0c6', 'light-green');
+INSERT INTO colors VALUES (14, 'Персиковый', '#ff9b8a', 'peach');
+INSERT INTO colors VALUES (15, 'Зеленый', '#ffff66', 'green');
+INSERT INTO colors VALUES (16, 'Оранжевый', '#ff9933', 'orange');
+INSERT INTO colors VALUES (17, 'Серый', '#4d4f57', 'grey');
+INSERT INTO colors VALUES (18, 'Синий', '#9c27b0', 'blue');
+
+-- prodt
+
+INSERT INTO prodt VALUES (410, 'Open Yourself', 799, '/ladytown/shop/images/t-shirt410.png', 4, 2023-05-28);
+INSERT INTO prodt VALUES (211, 'Time', 2999, '/ladytown/shop/images/sweatshirt211.png', 2, 2023-05-28);
+INSERT INTO prodt VALUES (210, 'Protest', 4999, '/ladytown/shop/images/sweatshirt210.png', 2, 2023-05-28);
+INSERT INTO prodt VALUES (212, 'Mindset', 4499, '/ladytown/shop/images/sweatshirt212.png', 2, 2023-05-28);
+INSERT INTO prodt VALUES (412, 'Tropic', 1299, '/ladytown/shop/images/t-shirt412.png', 4, 2023-05-28);
+INSERT INTO prodt VALUES (411, 'Picture', 1099, '/ladytown/shop/images/t-shirt411.png', 4, 2023-05-28);
+INSERT INTO prodt VALUES (111, 'Electra', 1300, '/ladytown/shop/images/swimsuit111.png', 1, 2023-05-28);
+INSERT INTO prodt VALUES (112, 'Joss', 1500, '/ladytown/shop/images/swimsuit112.png', 1, 2023-05-28);
+INSERT INTO prodt VALUES (110, 'Classic', 1500, '/ladytown/shop/images/swimsuit110.png', 1, 2023-05-28);
+INSERT INTO prodt VALUES (310, 'Los Angeles', 1500, '/ladytown/shop/images/hoodie310.png', 3, 2023-05-28);
+INSERT INTO prodt VALUES (311, 'Freddy', 1500, '/ladytown/shop/images/hoodie311.png', 3, 2023-05-28);
+
+-- varprodt
+
+INSERT INTO varprodt VALUES (111151, 'Electra', 1300, 5, '/ladytown/shop/images/swimsuit111.png', 111, 15, 1);
+INSERT INTO varprodt VALUES (111152, 'Electra', 1300, 5, '/ladytown/shop/images/swimsuit111.png', 111, 15, 2);
+INSERT INTO varprodt VALUES (111153, 'Electra', 1300, 5, '/ladytown/shop/images/swimsuit111.png', 111, 15, 3);
+INSERT INTO varprodt VALUES (111154, 'Electra', 1300, 5, '/ladytown/shop/images/swimsuit111.png', 111, 15, 4);
+INSERT INTO varprodt VALUES (111155, 'Electra', 1300, 5, '/ladytown/shop/images/swimsuit111.png', 111, 15, 5);
+INSERT INTO varprodt VALUES (112181, 'Joss', 1500, 5, '/ladytown/shop/images/swimsuit112.png', 112, 18, 1);
+INSERT INTO varprodt VALUES (112182, 'Joss', 1500, 5, '/ladytown/shop/images/swimsuit112.png', 112, 18, 2);
+INSERT INTO varprodt VALUES (112183, 'Joss', 1500, 5, '/ladytown/shop/images/swimsuit112.png', 112, 18, 3);
+INSERT INTO varprodt VALUES (112184, 'Joss', 1500, 5, '/ladytown/shop/images/swimsuit112.png', 112, 18, 4);
+INSERT INTO varprodt VALUES (112185, 'Joss', 1500, 5, '/ladytown/shop/images/swimsuit112.png', 112, 18, 5);
+INSERT INTO varprodt VALUES (112181, 'Joss', 1500, 5, '/ladytown/shop/images/swimsuit112.png', 112, 18, 1);
+INSERT INTO varprodt VALUES (211141, 'Time', 2999, 5, '/ladytown/shop/images/hooide211.png', 211, 14, 1);
+INSERT INTO varprodt VALUES (211142, 'Time', 2999, 5, '/ladytown/shop/images/hooide211.png', 211, 14, 2);
+INSERT INTO varprodt VALUES (211143, 'Time', 2999, 5, '/ladytown/shop/images/hooide211.png', 211, 14, 3);
+INSERT INTO varprodt VALUES (211144, 'Time', 2999, 5, '/ladytown/shop/images/hooide211.png', 211, 14, 4);
+INSERT INTO varprodt VALUES (211145, 'Time', 2999, 5, '/ladytown/shop/images/hooide211.png', 211, 14, 5);
+INSERT INTO varprodt VALUES (310101, 'Los Angeles', 1500, 5, '/ladytown/shop/images/hoodie310.png', 310, 10, 1);
+INSERT INTO varprodt VALUES (310102, 'Los Angeles', 1500, 5, '/ladytown/shop/images/hoodie310.png', 310, 10, 2);
+INSERT INTO varprodt VALUES (310103, 'Los Angeles', 1500, 5, '/ladytown/shop/images/hoodie310.png', 310, 10, 3);
+INSERT INTO varprodt VALUES (310104, 'Los Angeles', 1500, 5, '/ladytown/shop/images/hoodie310.png', 310, 10, 4);
+INSERT INTO varprodt VALUES (310105, 'Los Angeles', 1500, 5, '/ladytown/shop/images/hoodie310.png', 310, 10, 5);
+INSERT INTO varprodt VALUES (311101, 'Freddy', 1500, 5, '/ladytown/shop/images/hoodie311.png', 311, 10, 1);
+INSERT INTO varprodt VALUES (311102, 'Freddy', 1500, 5, '/ladytown/shop/images/hoodie311.png', 311, 10, 2);
+INSERT INTO varprodt VALUES (311103, 'Freddy', 1500, 5, '/ladytown/shop/images/hoodie311.png', 311, 10, 3);
+INSERT INTO varprodt VALUES (311104, 'Freddy', 1500, 5, '/ladytown/shop/images/hoodie311.png', 311, 10, 4);
+INSERT INTO varprodt VALUES (311105, 'Freddy', 1500, 5, '/ladytown/shop/images/hoodie311.png', 311, 10, 5);
+INSERT INTO varprodt VALUES (412181, 'Tropic', 1299, 5, '/ladytown/shop/images/t-shirt412.png', 412, 18, 1);
+INSERT INTO varprodt VALUES (412182, 'Tropic', 1299, 5, '/ladytown/shop/images/t-shirt412.png', 412, 18, 2);
+INSERT INTO varprodt VALUES (412183, 'Tropic', 1299, 5, '/ladytown/shop/images/t-shirt412.png', 412, 18, 4);
+INSERT INTO varprodt VALUES (412185, 'Tropic', 1299, 5, '/ladytown/shop/images/t-shirt412.png', 412, 18, 5);
+
+INSERT INTO varprodt VALUES (110111, 'Classic', 1500, 5, '/ladytown/shop/images/swimsuit11018.png', 110, 11, 1);
+INSERT INTO varprodt VALUES (110112, 'Classic', 1500, 5, '/ladytown/shop/images/swimsuit11018.png', 110, 11, 2);
+INSERT INTO varprodt VALUES (110113, 'Classic', 1500, 5, '/ladytown/shop/images/swimsuit11018.png', 110, 11, 3);
+INSERT INTO varprodt VALUES (110114, 'Classic', 1500, 5, '/ladytown/shop/images/swimsuit11018.png', 110, 11, 4);
+INSERT INTO varprodt VALUES (110115, 'Classic', 1500, 5, '/ladytown/shop/images/swimsuit11018.png', 110, 11, 5);
+INSERT INTO varprodt VALUES (110181, 'Classic', 1500, 5, '/ladytown/shop/images/swimsuit11017.png', 110, 18, 1);
+INSERT INTO varprodt VALUES (110182, 'Classic', 1500, 5, '/ladytown/shop/images/swimsuit11017.png', 110, 18, 2);
+INSERT INTO varprodt VALUES (110183, 'Classic', 1500, 5, '/ladytown/shop/images/swimsuit11017.png', 110, 18, 3);
+INSERT INTO varprodt VALUES (110184, 'Classic', 1500, 5, '/ladytown/shop/images/swimsuit11017.png', 110, 18, 4);
+INSERT INTO varprodt VALUES (110185, 'Classic', 1500, 5, '/ladytown/shop/images/swimsuit11017.png', 110, 18, 5);
+
+INSERT INTO varprodt VALUES (210111, 'Protest', 4999, 1, '/ladytown/shop/images/sweatshirt21018.png', 210, 11, 1);
+INSERT INTO varprodt VALUES (210112, 'Protest', 4999, 5, '/ladytown/shop/images/sweatshirt21018.png', 210, 11, 2);
+INSERT INTO varprodt VALUES (210113, 'Protest', 4999, 5, '/ladytown/shop/images/sweatshirt21018.png', 210, 11, 3);
+INSERT INTO varprodt VALUES (210114, 'Protest', 4999, 5, '/ladytown/shop/images/sweatshirt21018.png', 210, 11, 4);
+INSERT INTO varprodt VALUES (210115, 'Protest', 4999, 5, '/ladytown/shop/images/sweatshirt21018.png', 210, 11, 5);
+INSERT INTO varprodt VALUES (210131, 'Protest', 4999, 5, '/ladytown/shop/images/sweatshirt21016.png', 210, 13, 1);
+INSERT INTO varprodt VALUES (210132, 'Protest', 4999, 5, '/ladytown/shop/images/sweatshirt21016.png', 210, 13, 2);
+INSERT INTO varprodt VALUES (210133, 'Protest', 4999, 5, '/ladytown/shop/images/sweatshirt21016.png', 210, 13, 3);
+INSERT INTO varprodt VALUES (210134, 'Protest', 4999, 5, '/ladytown/shop/images/sweatshirt21016.png', 210, 13, 4);
+INSERT INTO varprodt VALUES (210135, 'Protest', 4999, 5, '/ladytown/shop/images/sweatshirt21016.png', 210, 13, 5);
+INSERT INTO varprodt VALUES (210161, 'Protest', 4999, 5, '/ladytown/shop/images/sweatshirt21014.png', 210, 16, 1);
+INSERT INTO varprodt VALUES (210162, 'Protest', 4999, 0, '/ladytown/shop/images/sweatshirt21014.png', 210, 16, 2);
+INSERT INTO varprodt VALUES (210163, 'Protest', 4999, 5, '/ladytown/shop/images/sweatshirt21014.png', 210, 16, 3);
+INSERT INTO varprodt VALUES (210164, 'Protest', 4999, 5, '/ladytown/shop/images/sweatshirt21014.png', 210, 16, 4);
+INSERT INTO varprodt VALUES (210165, 'Protest', 4999, 0, '/ladytown/shop/images/sweatshirt21014.png', 210, 16, 5);
+
+INSERT INTO varprodt VALUES (212121, 'Mindset', 4499, 5, '/ladytown/shop/images/sweatshirt21212.png', 212, 12, 1);
+INSERT INTO varprodt VALUES (212122, 'Mindset', 4499, 5, '/ladytown/shop/images/sweatshirt21212.png', 212, 12, 2);
+INSERT INTO varprodt VALUES (212123, 'Mindset', 4499, 1,'/ladytown/shop/images/sweatshirt21212.png', 212, 12, 3);
+INSERT INTO varprodt VALUES (212124, 'Mindset', 4499, 5, '/ladytown/shop/images/sweatshirt21212.png', 212, 12, 4);
+INSERT INTO varprodt VALUES (212125, 'Mindset', 4499, 0, '/ladytown/shop/images/sweatshirt21212.png', 212, 12, 5);
+
+INSERT INTO varprodt VALUES (212171, 'Mindset', 4499, 5, '/ladytown/shop/images/sweatshirt21211.png', 212, 17, 1);
+INSERT INTO varprodt VALUES (212172, 'Mindset', 4499, 5, '/ladytown/shop/images/sweatshirt21211.png', 212, 17, 2);
+INSERT INTO varprodt VALUES (212173, 'Mindset', 4499, 5, '/ladytown/shop/images/sweatshirt21211.png', 212, 17, 3);
+INSERT INTO varprodt VALUES (212174, 'Mindset', 4499, 5, '/ladytown/shop/images/sweatshirt21211.png', 212, 17, 4);
+INSERT INTO varprodt VALUES (212175, 'Mindset', 4499, 5, '/ladytown/shop/images/sweatshirt21211.png', 212, 17, 5);
+
+INSERT INTO varprodt VALUES (410151, 'Open Yourself', 799, 5, '/ladytown/shop/images/t-shirt41013.png', 410, 15, 1);
+INSERT INTO varprodt VALUES (410152, 'Open Yourself', 799, 5, '/ladytown/shop/images/t-shirt41013.png', 410, 15, 2);
+INSERT INTO varprodt VALUES (410153, 'Open Yourself', 799, 5, '/ladytown/shop/images/t-shirt41013.png', 410, 15, 3);
+INSERT INTO varprodt VALUES (410154, 'Open Yourself', 799, 5, '/ladytown/shop/images/t-shirt41013.png', 410, 15, 4);
+INSERT INTO varprodt VALUES (410155, 'Open Yourself', 799, 5, '/ladytown/shop/images/t-shirt41013.png', 410, 15, 5);
+
+INSERT INTO varprodt VALUES (410141, 'Open Yourself', 799, 5, '/ladytown/shop/images/t-shirt41015.png', 410, 14, 1);
+INSERT INTO varprodt VALUES (410142, 'Open Yourself', 799, 5, '/ladytown/shop/images/t-shirt41015.png', 410, 14, 2);
+INSERT INTO varprodt VALUES (410143, 'Open Yourself', 799, 5, '/ladytown/shop/images/t-shirt41015.png', 410, 14, 3);
+INSERT INTO varprodt VALUES (410144, 'Open Yourself', 799, 5, '/ladytown/shop/images/t-shirt41015.png', 410, 14, 4);
+INSERT INTO varprodt VALUES (410145, 'Open Yourself', 799, 5, '/ladytown/shop/images/t-shirt41015.png', 410, 14, 5);
+
+INSERT INTO varprodt VALUES (411101, 'Picture', 1099, 5, '/ladytown/shop/images/t-shirt41110.png', 411, 10, 1);
+INSERT INTO varprodt VALUES (411102, 'Picture', 1099, 5, '/ladytown/shop/images/t-shirt41110.png', 411, 10, 2);
+INSERT INTO varprodt VALUES (411103, 'Picture', 1099, 5, '/ladytown/shop/images/t-shirt41110.png', 411, 10, 3);
+INSERT INTO varprodt VALUES (411104, 'Picture', 1099, 5, '/ladytown/shop/images/t-shirt41110.png', 411, 10, 4);
+INSERT INTO varprodt VALUES (411105, 'Picture', 1099, 5, '/ladytown/shop/images/t-shirt41110.png', 411, 10, 5);
+
+INSERT INTO varprodt VALUES (411171, 'Picture', 1099, 5, '/ladytown/shop/images/t-shirt41111.png', 411, 17, 1);
+INSERT INTO varprodt VALUES (411172, 'Picture', 1099, 5, '/ladytown/shop/images/t-shirt41111.png', 411, 17, 2);
+INSERT INTO varprodt VALUES (411173, 'Picture', 1099, 5, '/ladytown/shop/images/t-shirt41111.png', 411, 17, 3);
+INSERT INTO varprodt VALUES (411174, 'Picture', 1099, 5, '/ladytown/shop/images/t-shirt41111.png', 411, 17, 4);
+INSERT INTO varprodt VALUES (411175, 'Picture', 1099, 5, '/ladytown/shop/images/t-shirt41111.png', 411, 17, 5);
+
