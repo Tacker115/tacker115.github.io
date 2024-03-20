@@ -1,4 +1,4 @@
-# Николай Такеров
+# Nick Tackerov
 
 Development of an online store:
 
