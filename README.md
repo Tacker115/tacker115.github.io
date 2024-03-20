@@ -4,7 +4,7 @@ Development of an online store:
 
 [Ladytown](https://tacker115.github.io/ladytown/ "Ladytown") - The first version of the Ladytown women's clothing online store <br>
 [Ladytown2](https://tacker115.github.io/ladytown2/ "Ladytown2") - Version of the Ladytown women's clothing online store with authorization and admin panel <br>
-[Ladytown_Bitrix](https://tacker115.github.io/ladytown_bitrix/ "Ladytown_Bitrix") - Version of the Ladytown women's clothing online store on the Bitrix CMS <br>
+[Ladytown_Bitrix](https://tacker115.github.io/ladytown_bitrix/ "Ladytown_Bitrix") - Version of the Ladytown women's clothing online store on the CMS Bitrix <br>
 
 My layouts:
 
