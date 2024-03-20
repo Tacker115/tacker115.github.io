@@ -6,7 +6,7 @@ Development of an online store:
 [Ladytown2](https://tacker115.github.io/ladytown2/ "Ladytown2") - Version of the Ladytown women's clothing online store with authorization and admin panel <br>
 [Ladytown_Bitrix](https://tacker115.github.io/ladytown_bitrix/ "Ladytown_Bitrix") - Version of the Ladytown women's clothing online store on the Bitrix CMS <br>
 
-Мои верстки:
+My layouts:
 
 [Сайт-портфолио](https://tacker115.github.io/portfolio/ "Сайт-портфолио") <br>
 [Desp](https://tacker115.github.io/desp/ "Desp") - Landing Page #1 <br>
@@ -17,7 +17,7 @@ Development of an online store:
 [Interno](https://tacker115.github.io/interno/ "Interno") - Layout of Landing Page #6 <br>
 [Anst](https://tacker115.github.io/anst/ "Anst") - Layout of Landing Page #7
 
-Мои сертификаты:
+My certificates:
 
 [1]( https://www.freecodecamp.org/certification/nikolaytacker/responsive-web-design "#1") - FCC Certificate "Responsive Web Design" <br>
 [2]( https://www.freecodecamp.org/certification/nikolaytacker/javascript-algorithms-and-data-structures "#2") - FCC Certificate "JavaScript Algorithms and Data Structures" 
