@@ -1,11 +1,5 @@
 # Nick Tackerov
 
-Development of an online store:
-
-[Ladytown](https://tacker115.github.io/ladytown/ "Ladytown") - The first version of the Ladytown women's clothing online store <br>
-[Ladytown2](https://tacker115.github.io/ladytown2/ "Ladytown2") - Version of the Ladytown women's clothing online store with authorization and admin panel <br>
-[Ladytown_Bitrix](https://tacker115.github.io/ladytown_bitrix/ "Ladytown_Bitrix") - Version of the Ladytown women's clothing online store on the CMS Bitrix <br>
-
 My layouts:
 
 [Own portfolio](https://tacker115.github.io/portfolio/ "Сайт-портфолио") <br>
@@ -16,6 +10,12 @@ My layouts:
 [Alecto](https://tacker115.github.io/alecto/ "Alecto") - Layout of Landing Page #5 <br>
 [Interno](https://tacker115.github.io/interno/ "Interno") - Layout of Landing Page #6 <br>
 [Anst](https://tacker115.github.io/anst/ "Anst") - Layout of Landing Page #7
+
+Development of an online store:
+
+[Ladytown](https://tacker115.github.io/ladytown/ "Ladytown") - The first version of the Ladytown women's clothing online store <br>
+[Ladytown2](https://tacker115.github.io/ladytown2/ "Ladytown2") - Version of the Ladytown women's clothing online store with authorization and admin panel <br>
+[Ladytown_Bitrix](https://tacker115.github.io/ladytown_bitrix/ "Ladytown_Bitrix") - Version of the Ladytown women's clothing online store on the CMS Bitrix <br>
 
 My certificates:
 
