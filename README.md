@@ -2,7 +2,7 @@
 
 My layouts:
 
-[Own portfolio](https://tacker115.github.io/portfolio/ "Сайт-портфолио") <br>
+[Own portfolio](https://tacker115.github.io/portfolio/ "My portfolio") <br>
 [Desp](https://tacker115.github.io/desp/ "Desp") - Landing Page #1 <br>
 [Addmarkets](https://tacker115.github.io/addmarkets/ "Addmarkets") - Layout of Landing Page with Quiz Survey #2 <br>
 [Womazing](https://tacker115.github.io/womazing/ "Womazing") - Layout of a multi-page website #3 <br>
