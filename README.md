@@ -6,8 +6,8 @@ Turnkey landing page development:
 
 Development of an online store:
 
-[Ladytown](https://github.com/Tacker115/tacker115.github.io/tree/main/ladytown "Ladytown") - The first version of the Ladytown women's clothing online store <br>
-[Ladytown2](https://github.com/Tacker115/tacker115.github.io/tree/main/ladytown2 "Ladytown2") - Version of the Ladytown women's clothing online store with authorization and admin panel <br>
+[Ladytown](https://github.com/Tacker115/tacker115.github.io/tree/main/ladytown "Ladytown") - The first version of the customized online women's clothing store Ladytown <br>
+[Ladytown2](https://github.com/Tacker115/tacker115.github.io/tree/main/ladytown2 "Ladytown2") - The scond version of the Ladytown women's clothing online store with authorization and admin panel <br>
 [Ladytown_Bitrix](https://github.com/Tacker115/tacker115.github.io/tree/main/ladytown_bitrix "Ladytown_Bitrix") - Version of the Ladytown women's clothing online store on the CMS Bitrix <br>
 
 My certificates:
@@ -17,7 +17,6 @@ My certificates:
 
 My layouts:
 
-[Own portfolio](https://tacker115.github.io/portfolio/ "My portfolio") <br>
 [Desp](https://tacker115.github.io/desp/ "Desp") - Landing Page #1 <br>
 [Addmarkets](https://tacker115.github.io/addmarkets/ "Addmarkets") - Layout of Landing Page with Quiz Survey #2 <br>
 [Womazing](https://tacker115.github.io/womazing/ "Womazing") - Layout of a multi-page website #3 <br>
