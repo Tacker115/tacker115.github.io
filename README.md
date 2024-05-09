@@ -1,15 +1,8 @@
 # Nick Tackerov
 
-My layouts:
+Turnkey landing page development:
 
-[Own portfolio](https://tacker115.github.io/portfolio/ "My portfolio") <br>
-[Desp](https://tacker115.github.io/desp/ "Desp") - Landing Page #1 <br>
-[Addmarkets](https://tacker115.github.io/addmarkets/ "Addmarkets") - Layout of Landing Page with Quiz Survey #2 <br>
-[Womazing](https://tacker115.github.io/womazing/ "Womazing") - Layout of a multi-page website #3 <br>
-[WeFinance](https://tacker115.github.io/wef/ "WeFinance") - Layout of Landing Page #4 <br>
-[Alecto](https://tacker115.github.io/alecto/ "Alecto") - Layout of Landing Page #5 <br>
-[Interno](https://tacker115.github.io/interno/ "Interno") - Layout of Landing Page #6 <br>
-[Anst](https://tacker115.github.io/anst/ "Anst") - Layout of Landing Page #7
+[iFitness](https://github.com/Tacker115/tacker115.github.io/tree/main/ifitness "iFitness") - Includes design creation, content filling, domain, and hosting <br>
 
 Development of an online store:
 
@@ -21,3 +14,14 @@ My certificates:
 
 [1]( https://www.freecodecamp.org/certification/nikolaytacker/responsive-web-design "#1") - FCC Certificate "Responsive Web Design" <br>
 [2]( https://www.freecodecamp.org/certification/nikolaytacker/javascript-algorithms-and-data-structures "#2") - FCC Certificate "JavaScript Algorithms and Data Structures" 
+
+My layouts:
+
+[Own portfolio](https://tacker115.github.io/portfolio/ "My portfolio") <br>
+[Desp](https://tacker115.github.io/desp/ "Desp") - Landing Page #1 <br>
+[Addmarkets](https://tacker115.github.io/addmarkets/ "Addmarkets") - Layout of Landing Page with Quiz Survey #2 <br>
+[Womazing](https://tacker115.github.io/womazing/ "Womazing") - Layout of a multi-page website #3 <br>
+[WeFinance](https://tacker115.github.io/wef/ "WeFinance") - Layout of Landing Page #4 <br>
+[Alecto](https://tacker115.github.io/alecto/ "Alecto") - Layout of Landing Page #5 <br>
+[Interno](https://tacker115.github.io/interno/ "Interno") - Layout of Landing Page #6 <br>
+[Anst](https://tacker115.github.io/anst/ "Anst") - Layout of Landing Page #7
