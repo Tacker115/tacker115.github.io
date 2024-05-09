@@ -6,9 +6,9 @@ Turnkey landing page development:
 
 Development of an online store:
 
-[Ladytown](https://github.com/Tacker115/tacker115.github.io/tree/main/ladytown "Ladytown") - The first version of the customized online women's clothing store Ladytown <br>
-[Ladytown2](https://github.com/Tacker115/tacker115.github.io/tree/main/ladytown2 "Ladytown2") - The scond version of the Ladytown women's clothing online store with authorization and admin panel <br>
-[Ladytown_Bitrix](https://github.com/Tacker115/tacker115.github.io/tree/main/ladytown_bitrix "Ladytown_Bitrix") - Version of the Ladytown women's clothing online store on the CMS Bitrix <br>
+[Ladytown](https://github.com/Tacker115/tacker115.github.io/tree/main/ladytown "Ladytown") - The first version of the customized online women's clothing store, Ladytown <br>
+[Ladytown2](https://github.com/Tacker115/tacker115.github.io/tree/main/ladytown2 "Ladytown2") - The second version of Ladytown's online clothing store includes authorization and an admin panel <br>
+[Ladytown_Bitrix](https://github.com/Tacker115/tacker115.github.io/tree/main/ladytown_bitrix "Ladytown_Bitrix") - The Ladytown women's clothing online store version on the CMS Bitrix <br>
 
 My certificates:
 
