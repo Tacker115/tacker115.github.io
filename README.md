@@ -10,11 +10,6 @@ Development of an online store:
 [Ladytown2](https://github.com/Tacker115/tacker115.github.io/tree/main/ladytown2 "Ladytown2") - The second version of Ladytown's online clothing store includes authorization and an admin panel <br>
 [Ladytown_Bitrix](https://github.com/Tacker115/tacker115.github.io/tree/main/ladytown_bitrix "Ladytown_Bitrix") - The Ladytown women's clothing online store version on the CMS Bitrix <br>
 
-My certificates:
-
-[1]( https://www.freecodecamp.org/certification/nikolaytacker/responsive-web-design "#1") - FCC Certificate "Responsive Web Design" <br>
-[2]( https://www.freecodecamp.org/certification/nikolaytacker/javascript-algorithms-and-data-structures "#2") - FCC Certificate "JavaScript Algorithms and Data Structures" 
-
 My layouts:
 
 [Desp](https://tacker115.github.io/desp/ "Desp") - Landing Page #1 <br>
@@ -24,3 +19,8 @@ My layouts:
 [Alecto](https://tacker115.github.io/alecto/ "Alecto") - Layout of Landing Page #5 <br>
 [Interno](https://tacker115.github.io/interno/ "Interno") - Layout of Landing Page #6 <br>
 [Anst](https://tacker115.github.io/anst/ "Anst") - Layout of Landing Page #7
+
+My certificates:
+
+[1]( https://www.freecodecamp.org/certification/nikolaytacker/responsive-web-design "#1") - FCC Certificate "Responsive Web Design" <br>
+[2]( https://www.freecodecamp.org/certification/nikolaytacker/javascript-algorithms-and-data-structures "#2") - FCC Certificate "JavaScript Algorithms and Data Structures" 
